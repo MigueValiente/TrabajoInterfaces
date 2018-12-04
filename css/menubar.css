@@ -7,7 +7,7 @@
 
 #cssmenu {
   background: #f96e5b;
-  width: auto;
+  width: 100%;
 }
 #cssmenu ul {
   list-style: none;
