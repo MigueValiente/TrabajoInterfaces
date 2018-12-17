@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/productos.css">
+
+    <title>Geek-Place</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <div class="nav-header">
+                    <div class="nav-title">
+                            <img class="logo" src="../images/logo-geekplace.png" alt="logo empresa">
+                    </div>
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <input type="checkbox" id="nav-check">
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="cuenta.html">Cuenta</a>
+                    <a href="acercaDe.html">Acerca De</a>
+                </div>
+            </div> 
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="titulo">Productos</h2>
+            <div class="filtro">
+                <label for="nombre">Producto</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe algo...">
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="categoria">
+                    <option value="">-Seleccionar</option>
+                    <option value="cine">Cine</option>
+                    <option value="series">Series</option>
+                    <option value="videojuegos">VideoJuegos</option>
+                    <option value="anime">Anime</option>
+                </select>
+                <button class="botonBuscar">Buscar</button>
+            </div>
+            <div id="productos" class="contenedorFlexbox">
+                <div class="producto">
+                    <img src="../images/funko bates.jpg" alt="funko pop Norman Bates">
+                    <h1>Funko POP! Psicosis - Norman Bates</h1>
+                    <h2>Cine</h2>
+                    <p>14,95€</p>
+                    <button class="botonComprar">Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="../images/funko doc.jpg" alt="funko pop Doc">
+                    <h1>Funko POP! Regresos al Futuro - Doc</h1>
+                    <h2>Cine</h2>
+                    <p>14,95€</p>
+                    <button class="botonComprar">Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="../images/funko sonic.jpg" alt="funko pop Sonic">
+                    <h1>Funko POP! Sonic - Sonic con Esmeralda</h1>
+                    <h2>VideoJuegos</h2>
+                    <p>14,95€</p>
+                    <button class="botonSinStock">Sin Stock</button>
+                </div>
+                <div class="producto">
+                    <img src="../images/funko jason.jpg" alt="funko pop Jason">
+                    <h1>Funko POP! Viernes 13 - Jason</h1>
+                    <h2>Cine</h2>
+                    <p>14,95€</p>
+                    <button class="botonComprar">Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="../images/funko goot.jpg" alt="funko pop Groot">
+                    <h1>Funko POP! Guardianes de la Galaxia - Groot</h1>
+                    <h2>Cine</h2>
+                    <p>14,95€</p>
+                    <button class="botonReservar">Reservar</button>
+                </div>
+                <div class="producto">
+                    <img src="../images/funko lost.jpg" alt="funko pop Gordito de Lost">
+                    <h1>Funko POP! Perdidos - Gordito de Lost</h1>
+                    <h2>Series</h2>
+                    <p>14,95€</p>
+                    <button class="botonComprar">Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="../images/funko super goku black.jpg" alt="funko pop Super Goku Black">
+                    <h1>Funko POP! Dragon Ball Super - Super Goku Black</h1>
+                    <h2>Anime</h2>
+                    <p>14,95€</p>
+                    <button class="botonComprar">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+
+        </div>
+    </footer>
+</body>
+</html>

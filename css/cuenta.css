@@ -1,0 +1,21 @@
+
+
+.regisForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.logForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.botonRegistro{
+    background-color: rgb(100, 144, 226);
+    border-radius: 10px;
+}
+
+.botonLogin{
+    background-color: rgb(230, 133, 54);
+    border-radius: 10px;
+}

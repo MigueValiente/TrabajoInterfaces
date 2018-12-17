@@ -4,52 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/noticias.css">
+
     <title>Geek-Place</title>
 </head>
 <body>
     <header>
-        <div class="header">
-            <div class="logo">
-                <img src="../images/logo.png"><span id="empresa">GEEK-PLACE</span>
-            </div>
-            <nav>
-                <div class="navContainer" >
-                    <div class="home">
-                        <a href="#header">HOME</a>
-                    </div>
-                    <div class="productos">
-                        <a href="productos.html">PRODUCTOS</a>
-                    </div>
-                    <div class="contacto">
-                        <a href="contacto.html">CONTACTO</a>
-                    </div>
-                    <!-- <div class="Cuenta">CUENTA</div> -->
-                    <div class="usuario">
-                        <a href="accessRegis.html">ACCESO/REGISTRO</a>
+        <nav>
+            <div class="nav">
+                <div class="nav-header">
+                    <div class="nav-title">
+                            <img class="logo" src="../images/logo-geekplace.png" alt="logo empresa">
                     </div>
                 </div>
-            </nav> 
-        </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <input type="checkbox" id="nav-check">
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="cuenta.html">Cuenta</a>
+                    <a href="acercaDe.html">Acerca De</a>
+                </div>
+            </div> 
+        </nav>
     </header>
     <main>
-        <aside>
-            <div class="aside">
-
-            </div>
-        </aside>
-
         <section>
-            <div class="section">
-                <div class="elemento"></div>
-                <div class="elemento"></div>
-                <div class="elemento"></div>
-                <div class="elemento"></div>
-                <div class="elemento"></div>
-                <div class="elemento"></div>
-                <div class="elemento"></div>
-               
+            <h2 class="titulo">Noticias</h2>
+            <div id="noticias" class="contenedorFlexbox">
+                <div class="noticia">
+                    <h1>Abrimos Nueva Tienda en Sevilla</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et aperiam necessitatibus natus, alias commodi quidem asperiores quam iure molestias error atque amet? Neque facilis quia incidunt hic at voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eaque at nesciunt enim praesentium reiciendis soluta dolor culpa illo ut. Culpa eius unde error asperiores illum omnis ea laborum amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, praesentium. Ducimus cumque fuga nihil mollitia blanditiis tempora laborum beatae officiis quia? Accusantium, repudiandae asperiores! Et error quia sint similique voluptatum.</p>
+                    <button class="botonLeer">Seguir Leyendo</button>
+                </div>
+                <div class="noticia">
+                    <h1>Nuevos Funko POP! en Enero</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et aperiam necessitatibus natus, alias commodi quidem asperiores quam iure molestias error atque amet? Neque facilis quia incidunt hic at voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eaque at nesciunt enim praesentium reiciendis soluta dolor culpa illo ut. Culpa eius unde error asperiores illum omnis ea laborum amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, praesentium. Ducimus cumque fuga nihil mollitia blanditiis tempora laborum beatae officiis quia? Accusantium, repudiandae asperiores! Et error quia sint similique voluptatum.</p>
+                    <button class="botonLeer">Seguir Leyendo</button>
+                </div>
+                <div class="noticia">
+                    <h1>Ofertas en Tienda</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et aperiam necessitatibus natus, alias commodi quidem asperiores quam iure molestias error atque amet? Neque facilis quia incidunt hic at voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eaque at nesciunt enim praesentium reiciendis soluta dolor culpa illo ut. Culpa eius unde error asperiores illum omnis ea laborum amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, praesentium. Ducimus cumque fuga nihil mollitia blanditiis tempora laborum beatae officiis quia? Accusantium, repudiandae asperiores! Et error quia sint similique voluptatum.</p>
+                    <button class="botonLeer">Seguir Leyendo</button>
+                </div>
+                <div class="noticia">
+                        <h1>BLACK FRIDAY HASTA 50% DE DESCUENTO</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et aperiam necessitatibus natus, alias commodi quidem asperiores quam iure molestias error atque amet? Neque facilis quia incidunt hic at voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eaque at nesciunt enim praesentium reiciendis soluta dolor culpa illo ut. Culpa eius unde error asperiores illum omnis ea laborum amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, praesentium. Ducimus cumque fuga nihil mollitia blanditiis tempora laborum beatae officiis quia? Accusantium, repudiandae asperiores! Et error quia sint similique voluptatum.</p>
+                        <button class="botonLeer">Seguir Leyendo</button>
+                </div>
             </div>
         </section>
     </main>

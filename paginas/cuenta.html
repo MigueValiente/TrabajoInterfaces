@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/normalize.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/nav.css">
-    <link rel="stylesheet" type="text/css" href="../css/noticias.css">
+    <link rel="stylesheet" type="text/css" href="../css/cuenta.css">
 
     <title>Geek-Place</title>
 </head>
@@ -40,27 +40,37 @@
     </header>
     <main>
         <section>
-            <h2 class="titulo">Contactanos</h2>
-            <div id="contactar" class="contenedorFlexbox">
-                <div class="contactForm">
+            <h2 class="titulo">Resgistro/Login</h2>
+            <div id="formList" class="contenedorFlexbox">
+                <div class="registerForm">
                     <fieldset>
-                        <legend>Contacta con Nosotros</legend>
-                        <form action="contactForm">
-                            <div class="divInput">
-                                <label for="nombreUsuario">Nombre</label>
-                                <input type="text" name="nombreUsuario" id="nombreUsuario">
-                            </div>
-                            <div class="divInput">
-                                    <label for="email">Email</label>
-                                    <input type="email" name="email" id="email" placeholder="example@example.example">
-                            </div>
-                            <div class="divInput">
-                                    <label for="pregunta">Pregunta</label>
-                                    <textarea name="pregunta" id="pregunta"></textarea>
-                            </div>
+                        <legend>Resgistro</legend>
+                        <form action="" class=regisForm>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                            <label for="color">Color Favorito</label>
+                            <input type="color" name="color" id="color">
+                            <label for="contraseña">Contraseña</label>
+                            <input type="password" name="contraseña" id="contraseña">
+                            <button class="botonRegistro">Registrarse</button>
                         </form>
                     </fieldset>
                 </div>
+                
+                <div class="loginForm">
+                        <fieldset>
+                            <legend>Login</legend>
+                            <form action="" class=logForm>
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" id="nombre">
+                                <label for="contraseña">Contraseña</label>
+                                <input type="password" name="contraseña" id="contraseña">
+                                <button class="botonLogin">Login</button>
+                            </form>
+                        </fieldset>
+                    </div>
             </div>
         </section>
     </main>
@@ -71,8 +81,3 @@
     </footer>
 </body>
 </html>
-
-
-
-
-
